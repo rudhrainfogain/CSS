@@ -1,0 +1,28 @@
+{
+    "name": "css",
+    "version": "1.0.0",
+    "description": "This is a course to learn CSS",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "lite-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rudhrainfogain/CSS.git"
+    },
+    "keywords": [
+        "CSS",
+        "CSS3",
+        "Flexbox"
+    ],
+    "author": "Rudhra Koul",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rudhrainfogain/CSS/issues"
+    },
+    "homepage": "https://github.com/rudhrainfogain/CSS#readme",
+    "dependencies": {
+        "lite-server": "^2.5.4"
+    }
+}
