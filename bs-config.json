@@ -1,7 +1,7 @@
 {
     "server": {
-        "baseDir": ["Section2"],
-        "index": "/Assignment/Solution/index.html",
+        "baseDir": ["Section2/Assignment/Solution"],
+        "index": "/index.html",
         "routes": {
             "/node_modules": "node_modules",
             "/dist": "Section2/dist"
