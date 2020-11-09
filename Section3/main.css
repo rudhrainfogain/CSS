@@ -63,3 +63,21 @@ h1 {
     text-decoration: none;
     color: #0e4f1f;
 }
+
+.main-nav__item a:hover {
+    color: white;
+}
+
+.main-nav__item a:active {
+    color: white;
+}
+
+.main-nav__item a::after {
+    content: " (Link)";
+    color: red;
+}
+
+p::first-letter {
+    color: #ff1b68;
+    font-size: 20px;
+}
