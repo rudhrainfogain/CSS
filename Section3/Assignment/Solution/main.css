@@ -1,0 +1,58 @@
+    /* Solution 1 */
+    /* .main-div {
+    padding: 10px;
+    border: 5px solid red;
+    margin: 20px;
+} */
+    /* ----------------------------------*/
+    /* Solution 2*/
+    
+    .main-div {
+        padding: 5px 10px, 15px, 20px;
+        margin: 5px 6px 10px 15px;
+        border: 10px solid red;
+    }
+    /* Solution 3 we can see margin collapsing
+ between bottom margin of first box 
+ and top margin of second box*/
+    /* Solution 4 */
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        height: 100%;
+    }
+    
+    #first-div {
+        height: 100%;
+    }
+    /* Solution 5 */
+    
+    #first-div {
+        height: 300px;
+        width: 50%;
+    }
+    /* Solution 6 */
+    
+    .main-div {
+        padding: 5px 10px, 15px, 20px;
+        margin: 0px;
+        border: 10px solid red;
+        height: 300px;
+        width: 49%;
+        /* width - the whitespace  between the two divs in html*/
+        display: inline-block;
+    }
+    /* Solution 7*/
+    
+    #first-div {
+        display: none;
+    }
+    /* Solution 8*/
+    
+    div:last-of-type:hover {
+        border-color: green;
+    }

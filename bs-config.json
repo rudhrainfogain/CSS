@@ -1,6 +1,6 @@
 {
     "server": {
-        "baseDir": ["Section3"],
+        "baseDir": ["Section3/Assignment/Solution"],
         "index": "/index.html",
         "routes": {
             "/node_modules": "node_modules",
