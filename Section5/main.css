@@ -90,6 +90,10 @@ body {
     background: white;
 }
 
+.button:focus {
+    outline: none;
+}
+
 .main-header {
     width: 100%;
     background: #2ddf5c;
