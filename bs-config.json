@@ -1,10 +1,10 @@
 {
     "server": {
-        "baseDir": ["Section9"],
+        "baseDir": ["Section10"],
         "index": "/index.html",
         "routes": {
             "/node_modules": "node_modules",
-            "/dist": "Section9/dist"
+            "/dist": "Section10/dist"
         }
     }
 }
