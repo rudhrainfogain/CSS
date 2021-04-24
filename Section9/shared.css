@@ -84,6 +84,28 @@ body {
     vertical-align: middle;
 }
 
+.toggle-button {
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: black;
+    display: block;
+    margin: 0.6rem 0;
+}
+
 .main-header__brand {
     text-decoration: none;
     color: #0e4f1f;
@@ -92,6 +114,7 @@ body {
     height: 1.5rem;
     /* width: 20px; */
     display: inline-block;
+    vertical-align: middle;
 }
 
 .main-header__brand img {
@@ -103,7 +126,7 @@ body {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 71px);
+    width: calc(100% - 122px);
     vertical-align: middle;
 }
 
