@@ -199,3 +199,7 @@ body {
 .main-footer__link a:active {
     color: #cccccc;
 }
+
+.open {
+    display: block !important;
+}
